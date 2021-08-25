@@ -1,0 +1,431 @@
+
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    color: #AE7C78;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    background-color:white;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 300;
+    font-family: "Playfair Display", sans-serif;
+    
+}
+a {text-decoration: none;
+
+}
+
+h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    font:700;  
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500; 
+}
+
+
+.menu-header {
+    display:flex;
+    height: 50px;
+}
+.navigation-left {
+    display:inline-flex; /* Отображать как строчный элемент */
+    list-style: none;
+    padding: 0;
+}
+.navigation-left > li {
+    padding: 0px 10px 0 10px ;
+}
+.menu-image {
+    margin: auto auto;
+}
+.navigation-right {
+    display:inline-flex; /* Отображать как строчный элемент */
+    list-style: none;
+    padding: 0;
+}
+ul.navigation-right > li {
+    padding: 0px 10px 0 10px ;
+}
+
+.section-main {
+    display:flex;
+}
+.section-main p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.background-button {
+    color: white;
+    background-color: #D89999;
+    height: 80px;
+    width: 285px;
+    border-radius: 40px;
+    display: flex;
+  }
+  .background-button p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: auto; 
+}
+
+.advantage {
+    display:inline-flex; 
+    padding: 10px;
+}
+.advantage-delivery {
+    list-style: none;
+    position:relative;
+    font-size: 16px;
+    padding-left: 100px;
+    margin: 10px;
+    width: 30%;
+}
+.advantage-delivery::before {
+    content: "";
+    position: absolute;
+    width:82px;
+    height:52px;
+    top:0px;
+    left:0px;
+    background: url("img/delivery-icon.png") no-repeat;
+}
+.advantage-delivery li{
+padding-bottom: 10px;
+}
+.advantage-delivery-bold {
+    font-weight: 500;
+}
+
+.advantage-fresh {
+    list-style: none;
+    position:relative;
+    font-size: 16px;
+    padding-left: 60px;
+    margin: 10px;
+    width: 30%;
+}
+.advantage-fresh::before {
+    content: "";
+    position: absolute;
+    width:82px;
+    height:52px;
+    top:0px;
+    left:0px;
+    background: url("img/fresh.png") no-repeat;
+}
+.advantage-fresh li{
+padding-bottom: 10px;
+}
+.advantage-fresh-bold {
+    font-weight: 500;
+}
+
+.advantage-photo {
+    list-style: none;
+    position:relative;
+    font-size: 16px;
+    padding-left: 80px;
+    margin: 10px;
+    width: 30%;
+}
+.advantage-photo::before {
+    content: "";
+    position: absolute;
+    width:82px;
+    height:52px;
+    top:0px;
+    left:0px;
+    background: url("img/photo.png") no-repeat;
+}
+.advantage-photo li{
+padding-bottom: 10px;
+}
+.advantage-photo-bold {
+    font-weight: 500;
+}
+
+.cardsflower {
+    display: flex;;
+}
+
+.arrows {
+    text-align: center;
+}
+
+.bouquets {
+    color: white;
+    display: flex;
+}
+.bouquets-wedding {
+    height: 442px;
+    width: 388px;
+    background: linear-gradient(45deg, rgba(174, 124, 120, .6), rgba(174, 124, 120, .6)), url(img/bouquets-wedding.jpg); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+.bouquets-pions {
+    height: 442px;
+    width: 388px;
+    background: linear-gradient(45deg, rgba(174, 124, 120, .6), rgba(174, 124, 120, .6)), url(img/bouquets-pions.jpg); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+.bouquets-girl {
+    height: 442px;
+    width: 388px;
+    background: linear-gradient(45deg, rgba(174, 124, 120, .6), rgba(174, 124, 120, .6)), url(img/bouquets-girl.jpg); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+
+.event_discount {
+    height: 391px;
+    display: flex;
+    background: #AE7C78;
+}
+
+.event_discount-text {
+    text-align: left;
+    color: white;
+    width: 610px;
+    padding: 20px;
+}
+.event_discount-text p:first-of-type {
+    font-size: 44px;
+    font-family: "Playfair Display", sans-serif;
+}
+.event_discount-text p:last-of-type {
+    font-size: 24px;
+    font-weight: 4;
+}
+
+
+.four_steps {
+    display:flex; 
+}
+.four_steps-order {
+    list-style: none;
+    position:relative;
+    font-size: 16px;
+    padding-top: 65px;
+    padding-left: 0;
+    margin: 15px;
+    width: 25%;
+    text-align: center;
+}
+.four_steps-order::before {
+    content: "";
+    position: absolute;
+    width:66px;
+    height:52px;
+    top:0px;
+    left:50%;
+    transform: translateX(-50%);
+    background: url("img/order.png") no-repeat;
+}
+.four_steps-order li:last-child{
+    padding-top: 10px;
+}
+.four_steps-order li:first-child{
+    font-weight: 500;
+}
+
+.four_steps-detals {
+    list-style: none;
+    position:relative;
+    font-size: 16px;
+    padding-top: 65px;
+    padding-left: 0;
+    margin: 15px;
+    width: 25%;
+    text-align: center;
+}
+.four_steps-detals::before {
+    content: "";
+    position: absolute;
+    width:37px;
+    height:52px;
+    top:0px;
+    left:50%;
+    transform: translateX(-50%);
+    background: url("img/detals.png") no-repeat;
+}
+.four_steps-detals li:last-child{
+    padding-top: 10px;
+}
+.four_steps-detals li:first-child{
+    font-weight: 500;
+}
+
+.four_steps-payment {
+    list-style: none;
+    position:relative;
+    font-size: 16px;
+    padding-top: 65px;
+    padding-left: 0;
+    margin: 15px;
+    width: 25%;
+    text-align: center;
+}
+.four_steps-payment::before {
+    content: "";
+    position: absolute;
+    width:69px;
+    height:52px;
+    top:0px;
+    left:50%;
+    transform: translateX(-50%);
+    background: url("img/payment.png") no-repeat;
+}
+.four_steps-payment li:last-child{
+    padding-top: 10px;
+}
+.four_steps-payment li:first-child{
+    font-weight: 500;
+}
+
+.four_steps-delivery {
+    list-style: none;
+    position:relative;
+    font-size: 16px;
+    padding-top: 65px;
+    padding-left: 0;
+    margin: 15px;
+    width: 25%;
+    text-align: center;
+}
+.four_steps-delivery::before {
+    content: "";
+    position: absolute;
+    width:82px;
+    height:52px;
+    top:0px;
+    left:50%;
+    transform: translateX(-50%);
+    background: url("img/delivery.png") no-repeat;
+}
+.four_steps-delivery li:last-child{
+    padding-top: 10px;
+}
+.four_steps-delivery li:first-child{
+    font-weight: 500;
+}
+
+
+
+
+.social_networks {
+    display:flex;
+    height: 460px;
+}
+.social_networks h2 {
+   text-align: left;
+}
+.social_networks p {
+    font-size: 24px;
+}
+.social_networks-img-vertical {
+    width: 285px;
+    height: 460px;
+    margin-right: 20px;
+}
+
+.social_networks-img-vertical img:last-child {
+   padding-top: 16px;
+   padding-bottom: 20px;
+}
+
+ 
+.reviews {
+    display:flex; 
+    text-align: center;
+    
+}
+.reviews blockquote cite {
+    font-weight: 500;
+    font-style: normal;
+}
+
+.contacts {
+    background-image: url(img/map.jpg);
+    position: relative;
+    height: 644px;
+}
+.contacts-text {
+    width: 386px;
+    height: 520px;
+    background-color: white;
+    border-radius: 12px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.contacts-description dt  {
+    margin: 0 0 20px 30px;
+}
+
+.contacts-description dd > a > span {
+    color: #AE7C78 ;
+}
+.contacts-description dd {
+    margin: 0 0 35px 30px;
+    font-weight: 500;
+}
+
+.footer {
+    display:flex;
+    height: 100px;
+background-color: #AE7C78;
+color: white;
+}
+
+.footer-menu {
+    display:inline-flex; 
+    list-style: none;
+    
+    padding: 0;
+    margin: auto auto;
+}
+.footer-menu > li {
+    padding: 0px 30px 0 30px ;
+
+}
+.footer-image {
+    margin: auto auto;
+    width: 100px;
+    height: 32px;
+}
+.footer-networks {
+    display:inline-flex; /* Отображать как строчный элемент */
+    list-style: none;
+    padding: 0;
+    margin: auto auto;
+}
+.footer-networks > li {
+    padding: 0px 10px 0 10px ;
+}
