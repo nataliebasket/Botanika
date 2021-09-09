@@ -2,119 +2,151 @@
 <html lang="ru">
   <head>
     <title>Botanika - Цветы в Петербурге.</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="menu-header">
-        <div>
-        <nav >
-         <ul class="navigation-left">
-           <li>Каталог</li>
-            <li>Доставка и оплата</li>
-            <li>Отзывы</li>
-          </ul>
-        </nav>
-        </div>
-        <div class="menu-image"><a href=""><img src="img/logo.png" width="100" height="32" alt="Логотип"></a></div>
-        <div>
-        <nav>
-          <ul class="navigation-right">
-            <li>Спецпредложения</li>
-            <li>Контакты</li>
-            <li>Корзина</li>
-          </ul>
-        </nav>
+    <header class="header">
+      <div class="header-container">
+        <a class="menu-image" href="#"
+          ><img src="img/logo.svg" width="100" height="32" alt="Логотип"
+        /></a>
+        <div class="navigation">
+          <a href="#">Каталог</a>
+          <a href="#">Доставка и оплата</a>
+          <a href="#">Отзывы</a>
+          <a href="#">Спецпредложения</a>
+          <a href="#">Контакты</a>
+          <a href="#">Корзина</a>
         </div>
       </div>
     </header>
 
-
     <main>
       <section class="section-main">
-        <div>
+        <div class="section-main-text">
           <h1>Авторские букеты <em>в Петербурге</em></h1>
-          <p>Оригинальные свежие букеты<br>с доставкой по всему городу</p>
+          <p>Оригинальные свежие букеты с доставкой по всему городу</p>
           <a href="">
             <div class="background-button">
               <p>Смотреть каталог</p>
             </div>
           </a>
         </div>
-          <img src="img/anna-tukhfatullina1.jpg" width="386" height="404" alt="Пионы">
-        <img src="img/taisiia-shestopal1.jpg"  width="387" height="420" alt="Розы">
+        <div class="section-main-pic_one">
+          <img
+            src="img/anna-tukhfatullina1.jpg"
+            width="386"
+            height="404"
+            alt="Пионы"
+          />
+        </div>
+        <div class="section-main-pic_two">
+          <img
+            src="img/taisiia-shestopal1.jpg"
+            width="387"
+            height="420"
+            alt="Розы"
+          />
+        </div>
       </section>
-
 
       <section class="advantage">
-          <ul class="advantage-delivery">
-            <li class="advantage-delivery-bold">Быстрая доставка</li>
-            <li>Можем собрать букет и передать его в доставку всего за час.</li>
-          </ul>
-          <ul class="advantage-fresh">
-            <li class="advantage-fresh-bold">Всегда свежие цветы</li>
-            <li>Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</li>
-          </ul>
-          <ul class="advantage-photo">
-            <li class="advantage-photo-bold">Отправляем фото цветов</li>
-            <li>Перед доставкой сделаем фотографию букета и отправим вам.</li>
-          </ul>
+        <div class="advantage-delivery">
+          <p class="bold">Быстрая доставка</p>
+          <p class="advantage-text">
+            Можем собрать букет и передать его в доставку всего за час.
+          </p>
+        </div>
+        <div class="advantage-fresh">
+          <p class="bold">Всегда свежие цветы</p>
+          <p class="advantage-text">
+            Тщательно следим за состоянием цветов, а опытные флористы отбирают
+            для букетов каждый цветок.
+          </p>
+        </div>
+        <div class="advantage-photo">
+          <p class="bold">Отправляем фото цветов</p>
+          <p class="advantage-text">
+            Перед доставкой сделаем фотографию букета и отправим вам.
+          </p>
+        </div>
       </section>
 
-      <h2>Популярные букеты</h2>
-      <section class="cardsflower">
-        <div>  
+      <h2 class="card-flower">Популярные букеты</h2>
+      <section class="card">
+        <div class="card-discription">
           <h3>Букет "Нежность"</h3>
-          <p>Элегантный букет, который станет отличным<br>подарком на день рождения или юбилей.</p>
+          <p>
+            Элегантный букет, который станет отличным<br />подарком на день
+            рождения или юбилей.
+          </p>
           <p>30 x 40 см</p>
           <h3>3600 руб.</h3>
-          <a href=""><div class="background-button"><p>Заказать</p></div></a>
+          <a href=""
+            ><div class="background-button"><p>Заказать</p></div></a
+          >
         </div>
-        <div>
-          <img src="img/imgbin_flower-bouquet.png" width="387" height="438" alt="Букет3">
+        <div class="card-photo">
+          <img
+            src="img/imgbin_flower-bouquet.png"
+            width="387"
+            height="438"
+            alt="Букет3"
+          />
+        </div>
+        <div class="arrow">
+          <div class="arrow-left">
+            <img src="img/arrow-left.svg" width="50" height="15" alt="" />
+          </div>
+          <div class="arrow-right">
+            <img src="img/arrow-right.svg" width="50" height="15" alt="" />
+          </div>
         </div>
       </section>
-      <div class="arrows">
-          <img src="img/arrow-left.png" width="50" height="15" alt="">
-          <img src="img/arrow-right.png" width="50" height="15" alt="">
-      </div>
-
 
       <section class="bouquets">
         <article class="bouquets-wedding">
           <div>
-          <h2>Свадебные букеты</h2>  
-          <p>Букеты для невест</p>
+            <h2>Свадебные букеты</h2>
+            <p>Букеты для невест</p>
           </div>
         </article>
 
         <article class="bouquets-pions">
           <div>
-          <h2>Букеты с пионами</h2>  
-          <p>Букеты с сезонными пионами</p>
-        </div>
+            <h2>Букеты с пионами</h2>
+            <p>Букеты с сезонными пионами</p>
+          </div>
         </article>
         <article class="bouquets-girl">
           <div>
-          <h2>Выбрать букет</h2>  
-          <p>Букеты в ассортименте</p>
+            <h2>Выбрать букет</h2>
+            <p>Букеты в ассортименте</p>
           </div>
         </article>
       </section>
-      
+
       <section class="event_discount">
         <div class="event_discount-text">
-          <p>Скидка 10%<br>на первый заказ</p>
-          <p>Если заказываете у нас букет<br>впервые — при оформлении<br>заказа введите промокод<br>«Botanika2021» и получите<br>скидку 10%.</p>
+          <p>
+            Скидка 10%<br />
+            на первый заказ
+          </p>
+          <p>
+            Если заказываете у нас букет впервые — при оформлении заказа введите
+            промокод «Botanika2021» и получите скидку 10%.
+          </p>
         </div>
         <div class="event_discount-img">
-          <img src="img/discount.jpg" width="590" height="391" alt="букет">
+          <img src="img/discount.jpg" width="590" height="391" alt="букет" />
         </div>
       </section>
 
-      <h2>4 шага к идеальному букету</h2>
+
+
+      <h2 class="four-step">4 шага к идеальному букету</h2>
       <section class="four_steps">
         <ul class="four_steps-order">
           <li>Заказ</li>
@@ -122,7 +154,10 @@
         </ul>
         <ul class="four_steps-detals">
           <li>Уточнение деталей</li>
-          <li>Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</li>
+          <li>
+            Наш флорист позвонит вам после оформления заказа, чтобы уточнить
+            детали
+          </li>
         </ul>
         <ul class="four_steps-payment">
           <li>Оплата</li>
@@ -134,43 +169,87 @@
         </ul>
       </section>
 
-      <div class="social_networks-div">
-      <section class="social_networks">
-        <div class="social_networks-text">
-          <h2>Следите за нашими новостями</h2>
-          <p>Подписывайтесь на наши<br>соцсети и узнавайте<br>о новинках и акциях первым.</p>
-          <a href=""><img src="img/instagram_icon.png" width="20" height="20" alt="Инстаграм"></a>
-          <a href=""><img src="img/facebook_icon.png" width="11" height="20" alt="Фейсбук"></a>
-          <a href=""><img src="img/twitter_icon.png" width="25" height="20" alt="Твиттер"></a>
-        </div>
-        
-        <div class="social_networks-img-vertical">
-            <img src="img/newsbuket1.jpg" width="285" height="220" alt="букет1">
-            <img src="img/newsbuket2.jpg" width="285" height="220" alt="букет2">
+        <section class="social_networks">
+          <div class="social_networks-text">
+            <h2>Следите за нашими новостями</h2>
+            <p>
+              Подписывайтесь на наши<br />соцсети и узнавайте<br />о новинках и
+              акциях первым.
+            </p>
+            <a href=""
+              ><img
+                src="img/instagram_icon.svg"
+                width="20"
+                height="20"
+                alt="Инстаграм"
+            /></a>
+            <a href=""
+              ><img
+                src="img/facebook_icon.svg"
+                width="11"
+                height="20"
+                alt="Фейсбук"
+            /></a>
+            <a href=""
+              ><img
+                src="img/twitter_icon.svg"
+                width="25"
+                height="20"
+                alt="Твиттер"
+            /></a>
           </div>
-        <div><img src="img/newsbuket3.jpg" width="387" height="460" alt="букет3"></div>
-      
-      </section>
-    </div>
 
+          <div class="social_networks-img-vertical">
+            <img
+              src="img/newsbuket1.jpg"
+              width="285"
+              height="220"
+              alt="букет1"
+            />
+            <img
+              src="img/newsbuket2.jpg"
+              width="285"
+              height="220"
+              alt="букет2"
+            />
+          </div>
+          <div>
+            <img
+              src="img/newsbuket3.jpg"
+              width="387"
+              height="460"
+              alt="букет3"
+            />
+          </div>
+        </section>
+     
 
-
-      <div class="reviews-border">
-      <h2>Отзывы</h2>
-      <section class="reviews">
-        <blockquote class="reviews-one">
-          <p>Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое спасибо!</p>
-          <cite>Марина</cite>
-        </blockquote>
-        <blockquote class="reviews-two">
-          <p>Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень понравился, буду ещё заказывать!</p>
-          <cite>Татьяна</cite>
-        </blockquote>
-        <blockquote class="reviews-three">
-          <p>Выбор букетов на любой вкус и цену. Бывают хорошие скидки, а флористы всегда помогут и точно соберут красивый букет!</p>
-          <cite>Ольга</cite>
-        </blockquote>
-      </section>
+ 
+       
+        <section class="reviews">
+          <h2>Отзывы</h2>
+          <blockquote class="reviews-one">
+            <p>
+              Всё очень понравилось! Быстрое оформление заказа, выбор удобного
+              времени доставки. Всем большое спасибо!
+            </p>
+            <cite>Марина</cite>
+          </blockquote>
+          <blockquote class="reviews-two">
+            <p>
+              Внимательные флористы, вежливые. Магазин находится прям рядом с
+              метро. Букет очень понравился, буду ещё заказывать!
+            </p>
+            <cite>Татьяна</cite>
+          </blockquote>
+          <blockquote class="reviews-three">
+            <p>
+              Выбор букетов на любой вкус и цену. Бывают хорошие скидки, а
+              флористы всегда помогут и точно соберут красивый букет!
+            </p>
+            <cite>Ольга</cite>
+          </blockquote>
+        </section>
       </div>
 
       <section class="contacts">
@@ -178,22 +257,36 @@
           <h2>Мы ждем вас</h2>
           <dl class="contacts-description">
             <dt>Приходите к нам:</dt>
-            <dd>Санкт-Петербург,<br>ул. Большая Конюшенная, 19</dd>
+            <dd>Санкт-Петербург,<br />ул. Большая Конюшенная, 19</dd>
             <dt>Режим работы:</dt>
             <dd>Пн-Вск, с 9-00 до 20-00</dd>
             <dt>Позвоните нам:</dt>
-            <dd><a href="tel:+79189834719"><span>+ 7 (812) 983-47-19</span></a></dd>
+            <dd>
+              <a href="tel:+79189834719"><span>+ 7 (812) 983-47-19</span></a>
+            </dd>
             <dt>Напишите нам:</dt>
-            <dd><a href="mailto:info@botanika.ru"><span>info@botanika.ru</span></a></dd>
+            <dd>
+              <a href="mailto:info@botanika.ru"
+                ><span>info@botanika.ru</span></a
+              >
+            </dd>
           </dl>
         </div>
       </section>
     </main>
 
     <footer>
-     <div >
+      <div>
         <nav class="footer">
-          <div class="footer-image"><a href=""><img src="img/logo-footer.png" width="100" height="32" alt="Логотип"></a></div>
+          <div class="footer-image">
+            <a href=""
+              ><img
+                src="img/logo-footer.svg"
+                width="100"
+                height="32"
+                alt="Логотип"
+            /></a>
+          </div>
           <ul class="footer-menu">
             <li>Каталог</li>
             <li>Доставка и оплата</li>
@@ -202,9 +295,33 @@
             <li>Контакты</li>
           </ul>
           <ul class="footer-networks">
-            <li><a href=""><img src="img/instagram_icon_footer.svg" width="20" height="20" alt="Инста"></a></li>
-            <li><a href=""><img src="img/facebook_icon_footer.svg" width="11" height="20" alt="фейс"></a></li>
-            <li><a href=""><img src="img/twitter_icon_footer.svg" width="25" height="20" alt="твит"></a></li>
+            <li>
+              <a href=""
+                ><img
+                  src="img/instagram_icon_footer.svg"
+                  width="20"
+                  height="20"
+                  alt="Инста"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="img/facebook_icon_footer.svg"
+                  width="11"
+                  height="20"
+                  alt="фейс"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img
+                  src="img/twitter_icon_footer.svg"
+                  width="25"
+                  height="20"
+                  alt="твит"
+              /></a>
+            </li>
           </ul>
         </nav>
       </div>
